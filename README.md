@@ -1,5 +1,5 @@
-# SAEROF
-===
+ SAEROF
+
 Copyright (C) 2019 Han-Jing Jiang(jianghanjing17@mails.ucas.ac.cn),Yu-An Huang(yu-an.huang@connect.polyu.hk),Zhu-Hong You(zhuhongyou@xjb.ac.cn)
 
 Computational drug repositioning
@@ -19,4 +19,4 @@ code
 3.Rotation forest.py:Sparse auto-encoder algorithm
 4.Rof.py:predict potential indications for drugs
 
-All files of Dataset and Code should be stored in the same folder to run GIPAE.
+All files of Dataset and Code should be stored in the same folder to run SAEROF.
