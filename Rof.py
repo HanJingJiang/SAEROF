@@ -36,10 +36,10 @@ SampleLabel = data
 print(len(SampleLabel))
 
 
-# SampleFeature = temp
+
 def ReadMyCsv(SaveList, fileName):
     csv_reader = csv.reader(open(fileName))
-    for row in csv_reader:  # 把每个rna疾病对加入OriginalData，注意表头
+    for row in csv_reader: 
         SaveList.append(row)
     return
 SampleFeature = []
