@@ -1,8 +1,3 @@
-# 输入为numpy.array，输出为numpy.array
-
-# Authors: Borja Ayerdi [ayerdi.borja -at- gmail -dot- com]
-# Copyright(c) 2016
-# License: Simple BSD
 
 """
 This module implements Rotation Forest
@@ -241,7 +236,6 @@ class RotationForest(object):
             pair.append(sum1_prob)
             y_pred_prob.append(pair)
             counter = counter + 1
-        # y_pred_prob = mode(ensemble_output, axis=1)[0]          # 按众数输出！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
-        y_pred_prob = np.array(y_pred_prob)     # 转换为np.array
+         y_pred_prob = np.array(y_pred_prob)     
 
         return y_pred_prob
