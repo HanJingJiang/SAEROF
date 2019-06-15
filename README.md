@@ -18,9 +18,9 @@ Dataset
 
 code
 ---
-1.Feature.py:Function to generate the total characteristics
+1.main.py:Function to generate the total characteristics
 
-2.sparse auto-encoder.py:The features are obtained by sparse auto-encoder
+2.SAE.py:The features are obtained by sparse auto-encoder
 
 3.Rotation forest.py:Sparse auto-encoder algorithm
 
